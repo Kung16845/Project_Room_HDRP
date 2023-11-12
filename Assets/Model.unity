@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.026724737, g: 0.036388, b: 0.060824938, a: 1}
+  m_IndirectSpecularColor: {r: 0.026724737, g: 0.036388118, b: 0.0608247, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1270,6 +1270,18 @@ PrefabInstance:
     - target: {fileID: 4177046354630628, guid: 9d012b73caba62246906034d78994c42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269522823682290, guid: 9d012b73caba62246906034d78994c42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.029
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269522823682290, guid: 9d012b73caba62246906034d78994c42, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269522823682290, guid: 9d012b73caba62246906034d78994c42, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.085
       objectReference: {fileID: 0}
     - target: {fileID: 108546126138138148, guid: 9d012b73caba62246906034d78994c42,
         type: 3}
@@ -2969,10 +2981,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4269522823682290, guid: 9d012b73caba62246906034d78994c42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269522823682290, guid: 9d012b73caba62246906034d78994c42, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.924
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269522823682290, guid: 9d012b73caba62246906034d78994c42, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.015
+      objectReference: {fileID: 0}
     - target: {fileID: 108546126138138148, guid: 9d012b73caba62246906034d78994c42,
         type: 3}
       propertyPath: m_Intensity
       value: 47.746483
+      objectReference: {fileID: 0}
+    - target: {fileID: 108546126138138148, guid: 9d012b73caba62246906034d78994c42,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 108546126138138148, guid: 9d012b73caba62246906034d78994c42,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 108546126138138148, guid: 9d012b73caba62246906034d78994c42,
         type: 3}
